@@ -1,28 +1,27 @@
-# Elite Minimalist Developer Portfolio
+# Neemasree's Software Engineering Portfolio
 
-A high-end, recruiter-ready Single Page Application (SPA) designed exclusively for a professional, engineering-focused presentation. This portfolio emphasizes sophisticated typography, structured technical content, and zero visual clutter to prioritize the most important elements: skills, code, and real-world projects.
+A clean, responsive, and highly-focused personal portfolio showcasing my engineering capabilites in full-stack web development, intelligent systems, and software strategy.
 
-## 🚀 Features
+🌍 **Live Deployment:** [https://neemasreeportfolio.vercel.app/](https://neemasreeportfolio.vercel.app/)
 
-- **Elite Minimalist Design**: A "Studio" Dark Theme featuring deep obsidian glassmorphism, subtle mesh gradients, and premium typography (Outfit/Inter).
-- **Single Page Architecture**: Smooth scroll navigation seamlessly linking the Hero, Professional Profile, Technical Arsenal, Project Showcase, and Contact sections without reloading.
-- **Strict No-Image Policy**: Fast-loading, distraction-free environment enforcing purely code-driven UI layouts (except for technical badges).
-- **Responsive Bento Grids**: Modern, asymmetric grid layouts scaling perfectly from high-resolution monitors down to small mobile screens.
-- **GitHub Tech Stack Integration**: Verified technical stack displays synced with actual repository technologies (Spring Boot, React, Python/ML, MERN).
-- **Professional About Section**: Restructured to highlight engineering capabilities, systems logic, full-stack ecosystem, and a dedicated Professional Experience module.
+## 🚀 Overview
 
-## 🛠️ Technology Stack
+Designed entirely from scratch with a "minimal dark studio" aesthetic to prioritize readable, fast, and structured technical displays over generic portfolio noise.
 
-- **Core**: HTML5, CSS3, Vanilla JavaScript
-- **Iconography**: Lucide Icons
-- **Design System**: Custom CSS Variables, Flexbox/Grid Architecture, CSS Keyframe Animations
-- **Integrations**: `skillicons.dev` for dynamic badges
+- **Responsive Single-Page Application (SPA)** architecture prioritizing fast, seamless navigation.
+- **Adaptive Bento Grid Layouts** enabling clean content organization regardless of the viewing device.
+- **Distraction-Free Readability**: Built purely with typography and clean CSS styles, discarding heavy images for immediate delivery of skills and achievements.
 
-## 💡 Design Philosophy
+## 💻 Tech Stack Showcase
 
-This portfolio departs from standard, image-heavy student sites by adopting a "Senior Developer" aesthetic. It removes unnecessary placeholders, self-portraits, and generic tech filler to provide recruiters exactly what they need immediately: accurate tech stacks, live code links, and a clean reading experience.
+This portfolio is hand-coded to ensure 100% control over layout and performance.
+- HTML5, CSS3 (Custom Variables, Flexbox/Grid CSS Architecture)
+- Vanilla JavaScript
+- Integrated Lucide Icons 
 
-## 🚀 Running Locally
+## 🏃 Running Locally
+
+To preview any changes to the portfolio directly:
 
 1. Clone the repository:
 ```bash
@@ -32,16 +31,14 @@ git clone https://github.com/Neemasree/Portfolio.git
 ```bash
 cd Portfolio
 ```
-3. Open `index.html` in your favorite browser, or serve it locally:
+3. Boot up a local static server:
 ```bash
+# Using Python:
 python -m http.server 8000
 ```
 
-## 👨‍💻 Author
+## 🔗 Connect
 
 **Neemasree**
-- GitHub: [@Neemasree](https://github.com/Neemasree)
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- [GitHub](https://github.com/Neemasree)
+- [LinkedIn Profile](https://www.linkedin.com/in/neema-sree-897537339)
