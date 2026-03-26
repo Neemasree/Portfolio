@@ -1,4 +1,4 @@
-# Neemasree's g Portfolio
+# Neemasree's  Porfolio
 
 A clean, responsive, and highly-focused personal portfolio showcasing my engineering capabilites in full-stack web development, intelligent systems, and software strategy.
 
