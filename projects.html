@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Neemasree</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="background-blob"></div>
+    
+    <header id="header">
+        <nav class="container nav-glass">
+            <a href="index.html" class="logo">Neemasree<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" class="btn-primary">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="section-spacing">
+            <div class="container">
+                <h1 class="section-title text-center text-gradient">My Projects</h1>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-reveal="up">
+                        <div class="project-header">
+                            <div class="project-badge">Featured</div>
+                            <h3>Monetra</h3>
+                        </div>
+                        <p>A smart expense tracker with advanced analytics features. Built with modern web technologies to help users track finances with emotional context.</p>
+                        <div class="project-tech"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                        <div class="project-links"><a href="https://github.com/Neemasree/Emotional-expense-tracker" target="_blank"><i data-lucide="github"></i> Repository</a></div>
+                    </div>
+
+                    <div class="project-card" data-reveal="up" data-delay="100">
+                        <div class="project-header"><h3>SafeNest / SafeWard AI</h3></div>
+                        <p>A platform for finding secure shelters during emergencies and intelligent hospital room access control. High transparency security analytics.</p>
+                        <div class="project-tech"><span>React</span><span>Bootstrap</span><span>Recharts</span></div>
+                        <div class="project-links"><a href="https://github.com/Neemasree/SafeWard-AI" target="_blank"><i data-lucide="github"></i> Repository</a></div>
+                    </div>
+
+                    <div class="project-card" data-reveal="up" data-delay="200">
+                        <div class="project-header"><h3>GSMS</h3></div>
+                        <p>Government Scheme Monitoring System. Multi-tenant governance platform ensuring accountability in public welfare fund disbursement.</p>
+                        <div class="project-tech"><span>MongoDB</span><span>Express</span><span>React</span><span>Node</span></div>
+                        <div class="project-links"><a href="https://github.com/Neemasree/Government-scheme-monitoring-system" target="_blank"><i data-lucide="github"></i> Repository</a></div>
+                    </div>
+
+                    <div class="project-card" data-reveal="up" data-delay="300">
+                        <div class="project-header"><h3>Complaint Management</h3></div>
+                        <p>Enterprise system for role-based complaint tracking and assignment. Features secure document uploads and status history.</p>
+                        <div class="project-tech"><span>Spring Boot</span><span>Java</span><span>MySQL</span><span>Hibernate</span></div>
+                        <div class="project-links"><a href="https://github.com/Neemasree/Complaint-management-system" target="_blank"><i data-lucide="github"></i> Repository</a></div>
+                    </div>
+
+                    <div class="project-card" data-reveal="up" data-delay="400">
+                        <div class="project-header"><h3>Ride Fare Estimator</h3></div>
+                        <p>Intelligent tool for estimating travel costs based on various parameters and real-time data inputs.</p>
+                        <div class="project-tech"><span>Python</span><span>JavaScript</span><span>API Integration</span></div>
+                        <div class="project-links"><a href="https://github.com/Neemasree/Ride-Fare-estimator" target="_blank"><i data-lucide="github"></i> Repository</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Neemasree. Built with passion.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
